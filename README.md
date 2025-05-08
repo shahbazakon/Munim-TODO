@@ -2,6 +2,33 @@
 
 A Kanban-style task manager built in Flutter, featuring role-based authentication, offline storage, and a drag-and-drop Kanban UI. This project demonstrates core app architecture practices using GetX and clean code principles.
 
+
+## Recording 🎬
+
+https://github.com/user-attachments/assets/49eb7385-13da-4f18-987f-7e8bdd236c79
+
+## Screenshots 📸
+
+| ![Splash](https://github.com/user-attachments/assets/cb4cdb86-ed03-4798-b6f9-c1c6a95762a9) | ![Login](https://github.com/user-attachments/assets/660c97ec-1ef6-4790-bbf3-26024a0456d9) | ![Register](https://github.com/user-attachments/assets/600a6a72-8019-4aa2-99f5-bd36626acb62) | ![AI Alerts](https://github.com/user-attachments/assets/3b8d9924-9ba3-472d-96d9-0320980d4aae) |
+|:------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+| Create User                                                                             | TODO Screen                                                                               | Create Task                                                                          | Update task                                                                                     |
+
+---
+
+
+
+## 🔑 Demo Accounts
+
+The app comes with pre-configured demo accounts:
+
+| Username | Password | Role |
+| --- | --- | --- |
+| admin | admin123 | Admin |
+| editor | editor123 | Editor |
+| viewer | viewer123 | Viewer |
+
+
+
 ## 📌 Key Features
 
 ### 🔐 Authentication & Role Management
@@ -58,21 +85,7 @@ flutter pub get
 flutter run
 ```
 
-## 🔑 Demo Accounts
 
-The app comes with pre-configured demo accounts:
-
-| Username | Password | Role |
-| --- | --- | --- |
-| admin | admin123 | Admin |
-| editor | editor123 | Editor |
-| viewer | viewer123 | Viewer |
-
-## ✅ Future Enhancements
-- Add real-time sync with backend
-- Better UI/UX polish
-- Dark Mode toggle
-- Add test coverage for controllers/models
 
 ## 📱 User Experience Features
 - Responsive design for both portrait and landscape orientations
