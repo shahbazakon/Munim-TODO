@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:karbon_munim/controllers/auth_controller.dart';
-import 'package:karbon_munim/controllers/task_controller.dart';
-import 'package:karbon_munim/screens/login_screen.dart';
-import 'package:karbon_munim/screens/kanban_screen.dart';
-import 'package:karbon_munim/screens/register_screen.dart';
-import 'package:karbon_munim/services/hive_service.dart';
+import 'package:munim_todo/controllers/auth_controller.dart';
+import 'package:munim_todo/controllers/task_controller.dart';
+import 'package:munim_todo/screens/login_screen.dart';
+import 'package:munim_todo/services/hive_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
